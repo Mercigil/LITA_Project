@@ -95,7 +95,7 @@ EDA involues exploring dataset to answer some question such as;
 - Monthly Trend of Sales and Revenue
   |Years|Months|Total Sales|Total Revenue|
   |-----|------|-----------|--------------|
-  |2023-|	|38,681|1,105,330|
+  |2023|	|38,681|1,105,330|
   | 	|Jan|	2,480|	49,600|
   ||	Feb|	4,950|	247,500|
   ||	Mar|	3,493|	52,395|
@@ -150,8 +150,8 @@ Based on Monthly Trend of Sales and Revenue:
 - Months product sell in each year				
 |Product|Years|Months|Total Sales|Total Revenue|
 |-------|-----|------|-----------|-------------|
-|Gloves|||		12,369|	296,900|
-||	2023|	|	6,441|	148,700|
+|Gloves|      |      |	12,369|	296,900|
+| |2023|	|6,441|	148,700|
 ||	|	Jun|	3,976|	99,400|
 ||	|	Dec|	2,465|	49,300|
 ||	2024|	|	5,928|	148,200|
