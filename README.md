@@ -93,7 +93,7 @@ EDA involues exploring dataset to answer some question such as;
    Based on Total Sales and Revenue: South Region has the Highest Sales and Highest Revenue
   
 -Monthly Trend of Sales and Revenue 
-|Years|Months|Total Sales|Sum of Revenue|
+|Years|Months|Total Sales|Total Revenue|
 |-----|------|-----------|--------------|
 |2023-|	|38,681|1,105,330|
 | 	|Jan|	2,480|	49,600|
@@ -125,7 +125,7 @@ Based on Monthly Trend of Sales and Revenue:
 			
 - Product that attract Sales in each Region
      
-|Region|Product|Total Sales|Sum of Revenue|
+|Region|Product|Total Sales|Total Revenue|
 |------|-------|-----------|--------------|
 |East	|      |20,361|485,925|
 ||	Hat|	8,971|107,175|
@@ -147,6 +147,48 @@ Based on Monthly Trend of Sales and Revenue:
 ||	Socks|	3,457|46,865|
 |Grand Total||	68,461|2,101,090|
 
+- Months product sell in each year				
+|Product|Years|Months|Total Sales|Total Revenue|
+|-------|-----|------|-----------|-------------|
+|Gloves|||		12,369|	296,900|
+||	2023|	|	6,441|	148,700|
+||	|	Jun|	3,976|	99,400|
+||	|	Dec|	2,465|	49,300|
+||	2024|	|	5,928|	148,200|
+||	|	Jun|	5,928|	|148,200|
+|Hat|	|	|	15,929|	316,195|
+||	2023|	|	6,965|	87,115|
+||	|	Mar|	3,493|	52,395|
+||	|	Sep|	3,472|	34,720|
+||	2024|	|	8,964|	229,080|
+||	|	Mar|	5,478|	54,780|
+||	|	Aug|	3,486|	174,300|
+|Jacket|	|	|	5,452|	208,230|
+||	2023|	|	3,964|	163,590|
+||	|	May|	994	|59,640|
+||	|	Nov|	2,970|	103,950|
+||	2024|	|	1,488|	44,640|
+||	|	May|	1,488|	44,640|
+|Shirt|	|	|	12,388|	485,600|
+||	2023|	|	8,420|	287,200|
+||	|	Jan|	2,480|	49,600|
+||	|	Jul|	5,940|	237,600|
+||	2024|	|	3,968|	198,400|
+||	|	Jan|	3,968	|198,400|
+|Shoes|	|	|	14,402|	613,380|
+||	2023|	|	6,942|	277,380|
+||	|	Feb|	4,950|	247,500|
+||	|	Aug|	1,992|	29,880|
+||	2024|	|	7,460|	336,000|
+||	|	Feb|	4,980|	298,800|
+||	|	Jul|	2,480|	37,200|
+|Socks|	|	|	7,921|	180,785|
+||	2023|	|	5,949|	141,345|
+||	|	Apr|	1,485|	7,425|
+||	|	Oct|	4,464|	133,920|
+||	2024|	|	1,972|	39,440|
+||	|	Apr|	1,972|	39,440|
+|Grand Total|||		68,461	|2,101,090|
 
 ```SQL
 SElECT * FROM table1
