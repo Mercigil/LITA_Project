@@ -60,3 +60,4 @@ This is where we included some basic lines of code
 SElECT * FROM table1
 WHERE CONDITION = TRUE
 ```
+### Data Visualizations 
