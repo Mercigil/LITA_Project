@@ -124,28 +124,27 @@ Based on Monthly Trend of Sales and Revenue:
 2. Revenue tend to be low(regular) at other months and high at some months(2023(February,July,October,November) and (2024(January,February,June and August))
 			
 - Product that attract Sales in each Region			
-Region	Product	Sum of Quantity	Sum of Revenue
-East		20,361	485,925
-	Hat	8,971	107,175
-	Jacket	2,970	103,950
-	Shirt	5,940	237,600
-	Shoes	2,480	37,200
-North		12,402	387,000
-	Hat	3,472	34,720
-	Jacket	2,482	104,280
-	Shirt	6,448	248,000
-South		24,298	927,820
-	Gloves	9,904	247,600
-	Shoes	9,930	546,300
-	Socks	4,464	133,920
-West		11,400	300,345
-	Gloves	2,465	49,300
-	Hat	3,486	174,300
-	Shoes	1,992	29,880
-	Socks	3,457	46,865
-Grand Total		68,461	2,101,090
-![image](https://github.com/user-attachments/assets/cd4df809-b8f4-40c1-9c7b-f3d5d099a7fa)
-
+|Region|Product|Total Sales|Sum of Revenue|
+|------|-------|-----------|--------------|
+|East		20,361||485,925|
+||	Hat|	8,971||107,175|
+||	Jacket|	2,970||103,950|
+||	Shirt|	5,940||237,600|
+||	Shoes|	2,480||37,200|
+|North	|	12,402||387,000|
+||	Hat|	3,472||34,720|
+||	Jacket|	2,482||104,280|
+||	Shirt|	6,448||248,000|
+|South	|	24,298||927,820|
+||	Gloves|	9,904||247,600|
+||	Shoes|	9,930||546,300|
+||	Socks|	4,464||133,920|
+|West	|	11,400||300,345|
+||	Gloves|	2,465||49,300|
+||	Hat|	3,486||174,300|
+||	Shoes|	1,992||29,880|
+||	Socks|	3,457||46,865|
+|Grand Total||	68,461|2,101,090|
 
 
 ```SQL
