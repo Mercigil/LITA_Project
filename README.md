@@ -126,7 +126,7 @@ Based on Monthly Trend of Sales and Revenue:
 - Product that attract Sales in each Region			
 |Region|Product|Total Sales|Sum of Revenue|
 |------|-------|-----------|--------------|
-|East		20,361||485,925|
+|East	||20,361||485,925|
 ||	Hat|	8,971||107,175|
 ||	Jacket|	2,970||103,950|
 ||	Shirt|	5,940||237,600|
