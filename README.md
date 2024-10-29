@@ -55,6 +55,30 @@ EDA involues exploring dataset to answer some question such as;
 
 ### Data Analysis
 #### Data Analysis usning MS-Excel
+- Total Sales from Products
+  |Product|Total Sales|
+  |-------|-----------|
+  |Hat|15,929|
+  |Shoes|14,402|
+  |Shirt|12,388|
+  |Gloves|12,369|
+  |Socks|7,921|
+  |Jacket|5,452|
+  |Grand Total|68,461|
+  Based on Total Sales, Hat,Shoes and Shirt are the Top Selling Products
+- Total Revenue from Product
+  |Product|Total Revenue|
+  |-------|-------------|
+  |Shoes|613,380|
+  |Shirt|485,600|
+  |Hat|316,195|
+  |Gloves|296,900|
+  |Jacket|208,230|
+  |Socks|180,785|
+  |Grand Total|2,101,090|
+  Based on Total Revenue, Shoes,Shirt and Hat are the Top Selling Products
+  
+
 ```SQL
 SElECT * FROM table1
 WHERE CONDITION = TRUE
