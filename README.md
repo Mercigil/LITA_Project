@@ -93,8 +93,8 @@ EDA involues exploring dataset to answer some question such as;
    Based on Total Sales and Revenue: South Region has the Highest Sales and Highest Revenue
   
 -Monthly Trend of Sales and Revenue 
-|Years|Months|Sum of Quantity|Sum of Revenue|
-|-----|------|---------------|--------------|
+|Years|Months|Total Sales|Sum of Revenue|
+|-----|------|-----------|--------------|
 |2023-|	|38,681|1,105,330|
 | 	|Jan|	2,480|	49,600|
 ||	Feb|	4,950|	247,500|
