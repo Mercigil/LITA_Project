@@ -87,7 +87,7 @@ EDA involues exploring dataset to answer some question such as;
   |South|24,298|927,820|
   |East|20,361|485,925|
   |North|12,402|387,000|
-  |West	11,400|300,345|
+  |West|11,400|300,345|
   |Grand Total|68,461|2,101,090|
 
    Based on Total Sales and Revenue: South Region has the Highest Sales and Highest Revenue
