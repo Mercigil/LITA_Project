@@ -65,7 +65,9 @@ EDA involues exploring dataset to answer some question such as;
   |Socks|7,921|
   |Jacket|5,452|
   |Grand Total|68,461|
-  Based on Total Sales, Hat,Shoes and Shirt are the Top Selling Products
+  
+  Based on Total Sales: Hat,Shoes and Shirt are the Top Selling Products
+  
 - Total Revenue from Product
   |Product|Total Revenue|
   |-------|-------------|
@@ -76,8 +78,21 @@ EDA involues exploring dataset to answer some question such as;
   |Jacket|208,230|
   |Socks|180,785|
   |Grand Total|2,101,090|
-  Based on Total Revenue, Shoes,Shirt and Hat are the Top Selling Products
   
+  Based on Total Revenue: Shoes,Shirt and Hat are the Top Selling Products
+
+- Total Sales by Region	
+  |Region|Total Sales|Total Revenue|
+  |------|-----------|-------------|
+  |South|24,298|927,820|
+  |East|20,361|485,925|
+  |North|12,402|387,000|
+  |West	11,400|300,345|
+  |Grand Total|68,461|2,101,090|
+
+   Based on Total Sales and Revenue: South Region has the Highest Sales and Highest Revenue
+
+
 
 ```SQL
 SElECT * FROM table1
