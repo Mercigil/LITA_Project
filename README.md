@@ -54,8 +54,7 @@ EDA involues exploring dataset to answer some question such as;
 - Are there Monthly sales trends?
 
 ### Data Analysis
-This is where we included some basic lines of code
-
+#### Data Analysis usning MS-Excel
 ```SQL
 SElECT * FROM table1
 WHERE CONDITION = TRUE
