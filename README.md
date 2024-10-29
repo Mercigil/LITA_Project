@@ -91,33 +91,61 @@ EDA involues exploring dataset to answer some question such as;
   |Grand Total|68,461|2,101,090|
 
    Based on Total Sales and Revenue: South Region has the Highest Sales and Highest Revenue
-Total Sales and Revenue in each month			
-Years	Months	Sum of Quantity	Sum of Revenue
-2023		38,681	1,105,330
-	Jan	2,480	49,600
-	Feb	4,950	247,500
-	Mar	3,493	52,395
-	Apr	1,485	7,425
-	May	994	59,640
-	Jun	3,976	99,400
-	Jul	5,940	237,600
-	Aug	1,992	29,880
-	Sep	3,472	34,720
-	Oct	4,464	133,920
-	Nov	2,970	103,950
-	Dec	2,465	49,300
-2024		29,780	995,760
-	Jan	3,968	198,400
-	Feb	4,980	298,800
-	Mar	5,478	54,780
-	Apr	1,972	39,440
-	May	1,488	44,640
-	Jun	5,928	148,200
-	Jul	2,480	37,200
-	Aug	3,486	174,300
-Grand Total		68,461	2,101,090
+  
+-Monthly Trend of Sales and Revenue 
+|Years|Months|Sum of Quantity|Sum of Revenue|
+|-----|------|---------------|--------------|
+|2023-|	|38,681|1,105,330|
+| 	|Jan|	2,480|	49,600|
+||	Feb|	4,950|	247,500|
+||	Mar|	3,493|	52,395|
+||	Apr|	1,485|	7,425|
+||	May|	994|	59,640|
+||	Jun|	3,976|	99,400|
+||	Jul|	5,940|	237,600|
+||	Aug|	1,992|	29,880|
+||	Sep|	3,472|	34,720|
+||	Oct|	4,464|	133,920|
+||	Nov|	2,970|	103,950|
+||	Dec|	2,465|	49,300|
+|2024	||	29,780|	995,760|
+||	Jan|	3,968|	198,400|
+||	Feb|	4,980|	298,800|
+||	Mar|	5,478|	54,780|
+||	Apr|	1,972|	39,440|
+||	May|	1,488|	44,640|
+||	Jun|	5,928|	148,200|
+||	Jul|	2,480|	37,200|
+||	Aug|	3,486|	174,300|
+|Grand Total||	68,461|	2,101,090|
+
+Based on Monthly Trend of Sales and Revenue: 
+1. Sales tend to be high in a month, then higher the next month and drop in the third month, as seen with (January,February and March),2023(June,July and August) and (September,October andd November)
+2. Revenue tend to be low(regular) at other months and high at some months(2023(February,July,October,November) and (2024(January,February,June and August))
 			
-![image](https://github.com/user-attachments/assets/a10d28a1-6420-4a71-bee6-aca1deddb12a)
+- Product that attract Sales in each Region			
+Region	Product	Sum of Quantity	Sum of Revenue
+East		20,361	485,925
+	Hat	8,971	107,175
+	Jacket	2,970	103,950
+	Shirt	5,940	237,600
+	Shoes	2,480	37,200
+North		12,402	387,000
+	Hat	3,472	34,720
+	Jacket	2,482	104,280
+	Shirt	6,448	248,000
+South		24,298	927,820
+	Gloves	9,904	247,600
+	Shoes	9,930	546,300
+	Socks	4,464	133,920
+West		11,400	300,345
+	Gloves	2,465	49,300
+	Hat	3,486	174,300
+	Shoes	1,992	29,880
+	Socks	3,457	46,865
+Grand Total		68,461	2,101,090
+![image](https://github.com/user-attachments/assets/cd4df809-b8f4-40c1-9c7b-f3d5d099a7fa)
+
 
 
 ```SQL
