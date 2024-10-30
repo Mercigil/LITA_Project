@@ -490,7 +490,7 @@ Uing Power BI, a Dahboard Report was created consisting of various visuals such 
 
 ---
 ### Conclusion
- The following are my insight got form the data analysis,data quer and data visualization
+ The following are my insight got form the data analysis,data query and data visualization
  - Based on Total Sales
    1. The high selling products are Hat, Shoe and Shirt
    2. South and East region are leading in sales
