@@ -462,11 +462,27 @@ where Quarter = 4 and year = 2023 )
 
 ---
 ### Data Visualizations 
+Uing Power BI, a Dahboard Report was created consisting of various visuals such as Cards,Tables,Matrix,Slicers,Bar Chart,Pie Chart and Donut Chart
 
+![Sale Dashboard_1](https://github.com/user-attachments/assets/0e0e24ab-06b7-4e1e-b367-18bb679a73c8)
 
+![Sales Dashboard_2](https://github.com/user-attachments/assets/b279aca6-ffec-47c0-aa6b-13bef805ddf1)
 
+![Sales Dashboard_3](https://github.com/user-attachments/assets/b8a4038e-c6f8-4168-a7b4-0aa8262e126e)
 
+ ![Sales Dashboard_4](https://github.com/user-attachments/assets/24112b39-e169-4f30-bff2-1abd3114d1ff)
 
- 
+ ![Sales Dashboard_5](https://github.com/user-attachments/assets/7456cd3b-b5bc-4127-8c5f-737c9c80564e)
+
+![Sales Dashboard_6](https://github.com/user-attachments/assets/59c87f27-76ea-46e7-81de-b4d20e447a67)
+
+![Sales Dashboard_7](https://github.com/user-attachments/assets/50d280a3-9bb4-4b42-b3cd-c5da70c4cf52)
+
+![Sales Dashboard_8](https://github.com/user-attachments/assets/0180e96d-8557-4814-9ab7-417086f81a1c)
+
+![Sales Dashboard_9](https://github.com/user-attachments/assets/cb14fe4e-dec3-4540-b660-67dd657d25c5)
+
+![Sale Dashboard_10](https://github.com/user-attachments/assets/b4afffb9-7439-4246-b2ca-10c149e1c241)
+
 ---
 ### Recommedations/Conclusions
