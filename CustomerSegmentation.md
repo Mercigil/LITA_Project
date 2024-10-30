@@ -446,7 +446,13 @@ order by count(Canceled) desc
 The following are my insight got form the data analysis,data query and data visualization
 - Basic Subscription Type is the most subscribed based on No of Subscribers and Total Revenue
 - East Region has more subscribers based on No of Subscribers and Total Revenue (although the difference with other Region isnt so much)
-- 
+- No of Subcribers reduces with year
+- Revenue from Canceled Subscription is higher compared to that of Active Subscription
+- Lots of Subcribers are cancelling their subscription
+- East and North regions patronize Basic Subscription Type
+- East and North regions patronize Basic Subscription Type
+- South region patronize Premium Subscription Type
+- West region patronize Standard Subscription Type
 
 ---
 ### Challenge
