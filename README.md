@@ -1,6 +1,7 @@
 # LITA Capstone Project
 
 ### Project Title: Sales Performance Analysis for a Retail Store
+
 [Project Overview](#project-overview) 
 
 [Data Source](#data-source) 
@@ -9,23 +10,23 @@
 
 [Data Cleaning](#data-cleaning-and-preparartions)
 
-[Data Analysis](#data-analysis) 
-
-- [Data Analysis using MS-Excel](#data-analysis-using-ms-excel)
+[Data Analysis using MS-Excel](#data-analysis-using-ms-excel)
   
-- [Data Analysis using SQL](#data-analysis-using-sql)
+[Data Analysis using SQL](#data-analysis-using-sql)
 
 [Data Visualizations](#data-visualizations) 
 
 [Conclusion](recommedations/conclusions)
 
 ---
-### Project Overview
+### Project Overview 
 I am working on my LITA Project where I will analysis Sales Performance  for a Retail Store.I explored sales data to uncover key insights such as top-selling products, regional performance, and monthly sales trends. I produced an interactive Power BI dashboard that highlights these findings.
 
+---
 ### Data Source
 The Data was given by LITA team (Incubator Hub) on the learning platform (Canvas for Infrastructure) as an excel file.
 
+---
 ### Tools Used
 - Microsoft Excel [Download Here](https://www.microsoft.com)
   1. For Data Cleaning
@@ -34,6 +35,7 @@ The Data was given by LITA team (Incubator Hub) on the learning platform (Canvas
 - Power BI for Data Visualizations [Download Here](https://www.microsoft.com)
 - GitHub for Portfolio Building
 
+---
 ### Data Cleaning and Preparartions
 The following was done to prepare our data for Analysis and Query
 - Downloading of data from LITA LMS (Canvas) so as to be used in Ms-Excel for data cleaning and Data Analysis 
@@ -53,14 +55,15 @@ The following was done to prepare our data for Analysis and Query
   2. Added Column Month Name
   3. Added Column Quarter
 
+---
 ### Exploratory Data Analysis
 EDA involues exploring dataset to answer some question such as;
 - What are the Top-Selling Products?
 - What are the Regional Performance?
 - Are there Monthly sales trends?
 
-### Data Analysis
-#### Data Analysis using MS-Excel
+---
+### Data Analysis using MS-Excel
 Using Microsoft Excel pivot table, the following summarization of the Sales data was obtained
 
 - Total Sales from Products
@@ -307,14 +310,18 @@ Based on the table above, there exist a Monthly trend in each region based on th
 ||	|	|	Apr|	1,972|	39,440|
 |Grand Total| |	|	|	68,461|	2,101,090|
 
-#### Data Analysis using SQL
+---
+### Data Analysis using SQL
 Using Sql Server Management Studio 2022, the following queries were applied to our Sales data 
 
 ```SQL
 SElECT * FROM table1
 WHERE CONDITION = TRUE
 ```
+
+---
 ### Data Visualizations 
 
 
+---
 ### Recommedations/Conclusions
