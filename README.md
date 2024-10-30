@@ -53,6 +53,7 @@ The following was done to prepare our data for Analysis and Query
      - Cleaned Dataset left with 9921 Rows including Header Rows
   6. Added a Calcuated Column (Revenue) as Quantity Sold * Unitprice
 - Copy data and opened in a New Workbook and saved it as a "csv" file so as to be imported into SQL Server Mangement Studio  and Power BI for Data Analysis and Data visualizations
+- While importing Sales dataset into SQL Server Mangement Studio, "tinyint" and "smallint" data types were changed to "int"
 - Open Cleaned dataset csv file using Power BI to extract add new column to dataset from OrderDate Column:
   1. Added Column Year
   2. Added Column Month Name
