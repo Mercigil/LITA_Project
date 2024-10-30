@@ -34,7 +34,7 @@ The Data was given by LITA team (Incubator Hub) on the learning platform (Canvas
 - Microsoft Excel [Download Here](https://www.microsoft.com)
   1. For Data Cleaning
   2. For Analysis
-- SQL Server Management Studio for Query Data [Download Here](https://www.microsoft.com)
+- SQL Server Management Studio for Querying and Analyzing Data [Download Here](https://www.microsoft.com)
 - Power BI for Data Visualizations [Download Here](https://www.microsoft.com)
 - GitHub for Portfolio Building
 
