@@ -446,9 +446,12 @@ order by count(Canceled) desc
 
 ---
 ### Challenge
-While Analysis the data, at subscription duration, every customer is having 365 or 366 day which is a year. 
+While Analyzing the data, at subscription duration, every customer is having 365 or 366 day which is a year. 
+
 This should not be the case as Customer with Sucscription Cancelation Status as True should have their subscrition duration as less than a year.
-Uding the SubscriptionStart and SubscriptionEnd given, the subscription duration always ends up as a year no matter how i tired.
+
+Using the SubscriptionStart and SubscriptionEnd given, the subscription duration always ends up as a year no matter how i tired.
+
 This challenge limited my analysis as I could find any month/year related insight.
 
 ---
