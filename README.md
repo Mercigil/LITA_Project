@@ -13,6 +13,8 @@
 
 [Data Visualizations](#data-visualizations) 
 
+[Recommedations/Conclusions](recommedations/conclusions)
+
 ---
 ### Project Overview
 I am working on my LITA Project where I will analysis Sales Performance  for a Retail Store.I explored sales data to uncover key insights such as top-selling products, regional performance, and monthly sales trends. I produced an interactive Power BI dashboard that highlights these findings.
@@ -146,8 +148,8 @@ Based on Monthly Trend of Sales and Revenue:
 ||	Shoes|	1,992|29,880|
 ||	Socks|	3,457|46,865|
 |Grand Total||	68,461|2,101,090|
-
-- Months product sell in each year
+	
+- Months Product Sell in each Year
      
 |Product|Years|Months|Total Sales|Total Revenue|
 |-------|-----|------|-----------|-------------|
@@ -191,9 +193,120 @@ Based on Monthly Trend of Sales and Revenue:
 |	|	|Apr	|1,972	|39,440|
 |Grand Total|	|	|68,461	|2,101,090|
 
+  Based on the table above, there exist a Monthly trend in each product based on the years, product turn in sales in certain months in both years
+  
+- Month Region makes Sales in each Year
+     
+|Region|Years|Months|Total Sales|Total Revenue|
+|------|-----|------|-----------|-------------|
+|East  |	|      |20,361	|485,925|
+|	|2023	|	|12,403	|393,945|
+|	|	|Mar|	3,493	|52,395|
+|	|	|Jul|	5,940	|237,600|
+|	|	|Nov|	2,970	|103,950|
+|	|2024	|	|7,958	|91,980|
+|	|	|Mar|	5,478	|54,780|
+|	|	|Jul|	2,480	|37,200|
+|North	|	|	|12,402	|387,000|
+|	|2023	|	|6,946	|143,960|
+|	|	|Jan|	2,480	|49,600|
+|	|	|May|	994	|59,640|
+|	|	|Sep|	3,472	|34,720|
+|	|2024	|	|5,456	|243,040|
+|	|	|Jan|	3,968	|198,400|
+|	|	|May|	1,488	|44,640|
+|South	|	|	|24,298	|927,820|
+|	|2023	|	|13,390	|480,820|
+|	|	|Feb|	4,950	|247,500|
+|	|	|Jun|	3,976	|99,400|
+|	|	|Oct|	4,464	|133,920|
+|	|2024	|	|10,908	|447,000|
+|	|	|Feb|	4,980	|298,800|
+|	|	|Jun|	5,928	|148,200|
+|West	|	|	|11,400	|300,345|
+|	|2023	|	|5,942	|86,605|
+|	|	|Apr|	1,485	|7,425|
+|	|	|Aug|	1,992	|29,880|
+|	|	|Dec|	2,465	|49,300|
+|	|2024	|	|5,458	|213,740|
+|	|	|Apr|	1,972	|39,440|
+|	|	|Aug|	3,486	|174,300|
+|Grand Total|	|	|68,461	|2,101,090|
+
+Based on the table above, there exist a Monthly trend in each region based on the years, regions turn in sales in certain months in both years
+
+- Months Product Sell in Regions by Year
+   				
+|Product|Region|Years|Months|Total Sales|Total Revenue|
+|-------|------|-----|------|-----------|-------------|
+|Gloves| |	|	|	12,369|	296,900|
+||	South|	|	|	9,904|	247,600|
+||	|	2023|	|	3,976|	99,400|
+||	|	|	Jun|	3,976|	99,400|
+||	|	2024|	|	5,928|	148,200|
+||	|	|	Jun|	5,928|	148,200|
+||	West|	|	|	2,465|	49,300|
+||	|	2023|	|	2,465|	49,300|
+||	|	|	Dec|	2,465|	49,300|
+|Hat|	|	|	|	15,929|	316,195|
+||	East|	|	|	8,971|	107,175|
+||	|	2023|	|	3,493|	52,395|
+||	|	|	Mar|	3,493|	52,395|
+||	|	2024|	|	5,478|	54,780|
+||	|	|	Mar|	5,478|	54,780|
+||	North|	|	|	3,472|	34,720|
+||	|	2023|	|	3,472|	34,720|
+||	|	|	Sep|	3,472|	34,720|
+||	West|	|	|	3,486|	174,300|
+||	|	2024|	|	3,486|	174,300|
+||	|	|	Aug|	3,486|	174,300|
+|Jacket||	|	|	5,452|	208,230|
+||	East|	|	|	2,970|	103,950|
+||	|	2023|	|	2,970|	103,950|
+||	|	|	Nov|	2,970|	103,950|
+||	North|	|	|	2,482|	104,280|
+||	|	2023|	|	994|	59,640|
+||	|	|	May|	994|	59,640|
+||	|	2024|	|	1,488|	44,640|
+||	|	|	May|	1,488|	44,640|
+|Shirt|	|	|	|	12,388|	485,600|
+||	East|	|	|	5,940|	237,600|
+||	|	2023|	|	5,940|	237,600|
+||	|	|	Jul|	5,940|	237,600|
+||	North|	|	|	6,448|	248,000|
+||	|	2023|	|	2,480|	49,600|
+||	|	|	Jan|	2,480|	49,600|
+||	|	2024|	|	3,968|	198,400|
+||	|	|	Jan|	3,968|	198,400|
+|Shoes|	|	|	|	14,402|	613,380|
+||	East|	|	|	2,480|	37,200|
+||	|	2024|	|	2,480|	37,200|
+||	|	|	Jul|	2,480|	37,200|
+||	South|	|	|	9,930|	546,300|
+||	|	2023|	|	4,950|	247,500|
+||	|	|	Feb|	4,950|	247,500|
+||	|	2024|	|	4,980|	298,800|
+||	|	|	Feb|	4,980|	298,800|
+||	West|	|	|	1,992|	29,880|
+||	|	2023|	|	1,992|	29,880|
+||	|	|	Aug|	1,992|	29,880|
+|Socks|	|	|	|	7,921|	180,785|
+||	South|	|	|	4,464|	133,920|
+||	|	2023|	|	4,464|	133,920|
+||	|	|	Oct|	4,464|	133,920|
+||	West|	|	|	3,457|	46,865|
+||	|	2023|	|	1,485|	7,425|
+||	|	|	Apr|	1,485|	7,425|
+||	|	2024|	|	1,972|	39,440|
+||	|	|	Apr|	1,972|	39,440|
+|Grand Total| |	|	|	68,461|	2,101,090|
+
 
 ```SQL
 SElECT * FROM table1
 WHERE CONDITION = TRUE
 ```
 ### Data Visualizations 
+
+
+### Recommedations/Conclusions
