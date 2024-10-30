@@ -11,6 +11,10 @@
 
 [Data Analysis](#data-analysis) 
 
+- [Data Analysis using MS-Excel](#data-analysis-using-ms-excel)
+  
+- [Data Analysis using SQL](#data-analysis-using-sql)
+
 [Data Visualizations](#data-visualizations) 
 
 [Conclusion](recommedations/conclusions)
@@ -32,7 +36,7 @@ The Data was given by LITA team (Incubator Hub) on the learning platform (Canvas
 
 ### Data Cleaning and Preparartions
 The following was done to prepare our data for Analysis and Query
-- Downloading of data from LITA LMS (Canvas)
+- Downloading of data from LITA LMS (Canvas) so as to be used in Ms-Excel for data cleaning and Data Analysis 
 - Opening of Data in Excel to Clean Dataset;
   1. Freezing Header Row
   2. Formatting Data as Table
@@ -43,7 +47,7 @@ The following was done to prepare our data for Analysis and Query
      - 40079 Duplicate Rows found and Removed
      - Cleaned Dataset left with 9921 Rows including Header Rows
   6. Added a Calcuated Column (Revenue) as Quantity Sold * Unitprice
-- Copy data and opened in a New Workbook and saved it as a "csv" file
+- Copy data and opened in a New Workbook and saved it as a "csv" file so as to be imported into SQL Server Mangemnet Studio 2022(SQL) and Power BI for Data Analysis and Data visualizations
 - Open Cleaned dataset csv file using Power BI to extract add new column to dataset from OrderDate Column:
   1. Added Column Year
   2. Added Column Month Name
@@ -56,7 +60,9 @@ EDA involues exploring dataset to answer some question such as;
 - Are there Monthly sales trends?
 
 ### Data Analysis
-#### Data Analysis usning MS-Excel
+#### Data Analysis using MS-Excel
+Using Microsoft Excel pivot table, the following summarization of the Sales data was obtained
+
 - Total Sales from Products
   |Product|Total Sales|
   |-------|-----------|
@@ -301,6 +307,8 @@ Based on the table above, there exist a Monthly trend in each region based on th
 ||	|	|	Apr|	1,972|	39,440|
 |Grand Total| |	|	|	68,461|	2,101,090|
 
+#### Data Analysis using SQL
+Using Sql Server Management Studio 2022, the following queries were applied to our Sales data 
 
 ```SQL
 SElECT * FROM table1
