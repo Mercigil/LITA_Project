@@ -19,11 +19,11 @@
 
 [Data Visualizations](#data-visualizations) 
 
-[Conclusion](conclusion)
+[Conclusion](#conclusion)
 
-[Recommendation](recommendation)
+[Recommendation](#recommendation)
 
-[Attached Files](attached-files)
+[Attached Files](#attached-files)
 
 ---
 ### Project Overview 
@@ -522,7 +522,7 @@ Uing Power BI, a Dahboard Report was created consisting of various visuals such 
 
 --- 
 ### Attached Files
-Attached here are all files used in this Project
+Attached here in this repository are all files used in this Project
 - Excel File ()
 - Csv file (LITA_ProjectSaleData1.csv)
 - Sql file (Sales.sql)
