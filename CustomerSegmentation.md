@@ -19,7 +19,11 @@
 
 [Data Visualizations](#data-visualizations) 
 
-[Conclusion](recommedations/conclusions)
+[Conclusion](#conclusions)
+
+[Challenge](#Challenge)
+
+[Attached Files](#attached-files)
 
 ---
 ### Project Overview 
@@ -423,7 +427,28 @@ order by count(Canceled) desc
 ---
 ### Data Visualizations 
 
+![Customer Dashboard_1](https://github.com/user-attachments/assets/f44547c1-8263-4016-b86a-a0d8cc6c20f5)
 
+![Customer Dashboard_2](https://github.com/user-attachments/assets/7d7fcaf9-c292-4bd6-a7c4-aaa2b33b6b84)
+
+![Customer Dashboard_3](https://github.com/user-attachments/assets/304f8090-072e-4609-b472-ce58eb44be0c)
+
+![Customer Dashboard_4](https://github.com/user-attachments/assets/f2122498-fc6b-4fa7-a3fd-57672ecb295a)
+
+![Customer Dashboard_5](https://github.com/user-attachments/assets/df07c39a-ea92-4dd2-bb1c-7c08bdafac45)
+
+![Customer Dashboard_6](https://github.com/user-attachments/assets/08285507-e37b-44fe-8804-c9ea8bee203e)
+
+![Customer Dashboard_7](https://github.com/user-attachments/assets/5ee6e9ba-e26b-4db6-a3fd-22b65765f187)
+
+---
+### Conclusion
+
+---
+### Challenge
+
+---
+### Attached Files
 
 
 
