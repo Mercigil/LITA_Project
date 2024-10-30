@@ -324,6 +324,103 @@ from LITA_Project_CustomerData)
 |219|
 |220|
 
+- Total revenue by Subscription Type
+```SQL
+select SubscriptionType,
+	sum(Revenue) as TotalRevenue
+from LITA_Project_CustomerData
+group by SubscriptionType
+order by sum(Revenue) desc
+```
+|SubscriptionType|TotalRevenue|
+|----------------|------------|
+|Basic|	33776735|
+|Premium|16899064|
+|Standard|16864376|
+
+- Top 3 regions by subscription cancellations
+```SQL
+select Region,		
+	count(Canceled) as Canceled_Subscription
+from LITA_Project_CustomerData
+where Canceled=1
+group by Region 
+order by count(Canceled) desc
+```
+|Region|Canceled_Subscription|
+|------|---------------------|
+|North|	5067|
+|South	|5064|
+|West	|5044|
+
+-Total number of active and canceled subscriptions
+```SQL
+select  count(Canceled) as Active_Subscription
+from LITA_Project_CustomerData
+where Canceled=0
+```
+|Active_Subscription|
+|-------------------|
+|18612|
+
+```SQL
+select  count(Canceled) as Canceled_Subscription
+from LITA_Project_CustomerData
+where Canceled=1
+```
+|Canceled_Subscription|
+|---------------------|
+|15175|
+
+```SQL
+select  SubscriptionType, count(Canceled) as Canceled_Subscription
+from LITA_Project_CustomerData
+where Canceled=1
+group by SubscriptionType
+```
+|SubscriptionType|Canceled_Subscription|
+|----------------|---------------------|
+|Basic	|5067|
+|Premium|5064|
+|Standard|5044|
+
+```SQL
+select  SubscriptionType, count(Canceled) as Active_Subscription
+from LITA_Project_CustomerData
+where Canceled=0
+group by SubscriptionType
+```
+|SubscriptionType|Active_Subscription|
+|----------------|-------------------|
+|Basic	|11854|
+|Premium|3382|
+|Standard|3376|
+
+```SQL
+select  Region, count(Canceled) as Canceled_Subscription
+from LITA_Project_CustomerData
+where Canceled=1
+group by Region
+```
+|Region|Canceled_Subscription|
+|------|---------------------|
+|North	|5067|
+|South	|5064|
+|West	|5044|
+
+```SQL
+select  Region, count(Canceled) as Active_Subscription
+from LITA_Project_CustomerData
+where Canceled=0
+group by Region
+order by count(Canceled) desc
+```
+|Region|Active_Subscription|
+|------|-------------------|
+|East	|8488|
+|South	|3382|
+|West	|3376|
+|North	|3366|
 
 ---
 ### Data Visualizations 
