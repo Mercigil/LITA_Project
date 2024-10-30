@@ -119,7 +119,7 @@ EDA involues exploring dataset to answer some question such as;
   ||	Jun|	5,928|	148,200|
   ||	Jul|	2,480|	37,200|
   ||	Aug|	3,486|	174,300|
-|Grand Total||	68,461|	2,101,090|
+  |Grand Total||68,461|2,101,090|
 
 Based on Monthly Trend of Sales and Revenue: 
 1. Sales tend to be high in a month, then higher the next month and drop in the third month, as seen with (January,February and March),2023(June,July and August) and (September,October andd November)
@@ -134,15 +134,15 @@ Based on Monthly Trend of Sales and Revenue:
 ||	Jacket|	2,970|103,950|
 ||	Shirt|	5,940|237,600|
 ||	Shoes|	2,480|37,200|
-|North	|	12,402|387,000|
+|North|	|12,402|387,000|
 ||	Hat|	3,472|34,720|
 ||	Jacket|	2,482|104,280|
 ||	Shirt|	6,448|248,000|
-|South	|	24,298|927,820|
+|South|	|24,298|927,820|
 ||	Gloves|	9,904|247,600|
 ||	Shoes|	9,930|546,300|
 ||	Socks|	4,464|133,920|
-|West	|	11,400|300,345|
+|West| |11,400|300,345|
 ||	Gloves|	2,465|49,300|
 ||	Hat|	3,486|174,300|
 ||	Shoes|	1,992|29,880|
