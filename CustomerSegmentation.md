@@ -92,7 +92,15 @@ Using Microsoft Excel pivot table, the following summarization of the Customer d
 |FALSE|	11,864	|6,748	|18,612|
 |TRUE|	8,411	|6,764	|15,175|
 |Grand Total|	20,275	|13,512	|33,787|
-				
+
+- No of Customer that Canceled their Subscription			
+	
+|Subscription Type|FALSE|TRUE|Grand Total|
+|Basic|11,854|	5,067|	16,921|
+|Premium|3,382|	5,064|	8,446|
+|Standard|3,376|5,044|	8,420|
+|Grand Total|18,612|15,175|33,787|
+
 - Revenue from  Subscription Type by  Cancelation			
 	
 |Subscription Type|	FALSE	|TRUE	|Grand Total|
