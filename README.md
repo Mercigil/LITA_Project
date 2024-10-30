@@ -2,7 +2,9 @@
 
 ### Project Title: Sales Performance Analysis for a Retail Store
 #### By Tamakloe Vivian Anuoluwa
-#### October,2024
+#### October, 2024
+
+---
 [Project Overview](#project-overview) 
 
 [Data Source](#data-source) 
@@ -321,12 +323,13 @@ create database LITA_CapstoneProject
 ```
 - Viewing the dataset after importing it into SQL Servet Management Studio
 ```SQL
-select * from LITA_ProjectSaleData
+select *
+from LITA_ProjectSaleData
 ```
 - Total Sales for each Product Category
 ```SQL
 select Product,   
-sum(Quantity)as TotalSales
+	sum(Quantity) as TotalSales
 from LITA_ProjectSaleData
 group by Product
 order by sum(Quantity) desc
@@ -340,12 +343,12 @@ order by sum(Quantity) desc
 |Socks	|7921|
 |Jacket	|5452|
 
-The highedt selling product are Hat,Shoes abd Shirt
+The highest selling product are Hat,Shoes abd Shirt
 
 - Number of Sales Transactions in Each Region
 ```SQL
 select Region, 
-count(OrderID) as No_of_SaleTransaction
+	count(OrderID) as No_of_SaleTransaction
 from LITA_ProjectSaleData
 group by Region
 order by count(OrderID) desc
@@ -359,7 +362,8 @@ order by count(OrderID) desc
 
 - Total Revenue Per Product
 ```SQL
-select sum(Revenue) as TotalRevenue from LITA_ProjectSaleData
+select sum(Revenue) as TotalRevenue
+from LITA_ProjectSaleData
 ```
 |TotalRevenue|
 |------------|
@@ -367,8 +371,8 @@ select sum(Revenue) as TotalRevenue from LITA_ProjectSaleData
 
 ```SQL
 select Product, 
-sum(Revenue) as TotalRevenue,
-sum(Revenue)/21010.9 as TotalRevenue_in_Percentage
+	sum(Revenue) as TotalRevenue,
+	sum(Revenue)/21010.9 as TotalRevenue_in_Percentage
 from LITA_ProjectSaleData
 group by Product
 order by sum(Revenue) desc
@@ -384,7 +388,8 @@ order by sum(Revenue) desc
 
 - Monthly Sales Totals for the Current Year
 ```SQL
-Select Month_Name, sum(Quantity) as Monthly_Sale_Total_for_Current_Year
+Select Month_Name,
+	sum(Quantity) as Monthly_Sale_Total_for_Current_Year
 from LITA_ProjectSaleData
 where Year=2024
 Group by Month_Name
@@ -402,7 +407,8 @@ Group by Month_Name
 
 - Top 5 Customers by Total Purchase Amount
 ```SQL
-select top 5 sum(Revenue) as Total_Purchase_Amount, Customer_Id
+select top 5 sum(Revenue) as Total_Purchase_Amount,
+	Customer_Id
 from LITA_ProjectSaleData
 group by Customer_Id 
 order by sum(Revenue) desc
@@ -417,7 +423,8 @@ order by sum(Revenue) desc
 
 - Percentage of Total Sales Contributed by Each Region
 ```SQL
-select sum(Quantity) as TotalSales from LITA_ProjectSaleData
+select sum(Quantity) as TotalSales
+from LITA_ProjectSaleData
 ```
 |TotalSales|
 |----------|
@@ -425,8 +432,8 @@ select sum(Quantity) as TotalSales from LITA_ProjectSaleData
 
 ```SQL
 select Region,
-sum(Quantity)as TotalSales,
-sum(Quantity)/684.61 as TotalSale_in_Percentage
+	sum(Quantity)as TotalSales,
+	sum(Quantity)/684.61 as TotalSale_in_Percentage
 from LITA_ProjectSaleData
 group by Region
 ```
