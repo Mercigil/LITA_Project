@@ -176,9 +176,6 @@ Using Microsoft Excel pivot table, the following summarization of the Customer d
 |	|	|2023	||6,785,244	|6,785,244|
 |Grand Total|	|	|37,208,727	|30,331,448|	67,540,175|
 
-
-
-
 ---
 ### Data Analysis using SQL
 Using Sql Server Management Studio 2022, the following queries were applied to our Sales data 
@@ -283,6 +280,7 @@ where canceled=1 and 180 >
 (select sum(SubscriptionDuration)/count(CustomerID)
 from LITA_Project_CustomerData)
 ```
+This Query returned no records as all Subscription Duration are 365 or 366
 
 - Average subscription duration for all customers
 ```SQL
@@ -353,7 +351,7 @@ order by count(Canceled) desc
 |South	|5064|
 |West	|5044|
 
--Total number of active and canceled subscriptions
+- Total number of active and canceled subscriptions
 ```SQL
 select  count(Canceled) as Active_Subscription
 from LITA_Project_CustomerData
