@@ -88,6 +88,7 @@ Using Microsoft Excel pivot table, the following summarization of the Customer d
 - No of Customer by Subcription Type in Regions 		
 
 |SubscriptionType|Region|No of Customer|
+|----------------|------|--------------|
 |Basic	|	|16,921|
 ||	East	|8,488|
 ||	North	|8,433|
@@ -140,6 +141,41 @@ Using Microsoft Excel pivot table, the following summarization of the Customer d
 |FALSE|23,720,255|13,488,472|	37,208,727|
 |TRUE	|16,818,183|13,513,265	|30,331,448|
 |Grand Total|40,538,438|27,001,737|	67,540,175|
+
+- Total Revenue from Subscription Types in Regions by Cancelation Status				
+	
+|SubscriptionType|Region|FALSE|TRUE|	Grand Total|
+|----------------|------|-----|----|---------------|
+|Basic	||	23,683,493|10,093,242|	33,776,735|
+|	|East|	16,958,763||		16,958,763|
+|	|North|	6,724,730|	10,093,242|16,817,972|
+|Premium|	|6,772,264|	10,126,800|16,899,064|
+|	|South	|6,772,264|	10,126,800|16,899,064|
+|Standard|	|6,752,970|	10,111,406|16,864,376|
+|	|West	|6,752,970|	10,111,406|16,864,376|
+|Grand Total|	|37,208,727|	30,331,448|67,540,175|
+
+- Total Revenue from Subscription Types in  Region by year/canceled Status					
+	
+|SubscriptionType|Region|Years|FALSE|TRUE|Grand Total|
+|----------------|------|-----|-----|----|-----------|
+|Basic|		|	|23,683,493	|10,093,242	|33,776,735|
+|	|East	|	|16,958,763	||	16,958,763|
+|	|	|2022	|10,242,555	||	10,242,555|
+|	|	|2023	|6,716,208	||	6,716,208|
+|	|North	|	|6,724,730	|10,093,242	16,817,972|
+|	|	|2022	|6,724,730	|3,365,221	10,089,951|
+|	|	|2023	||6,728,021	|6,728,021|
+|Premium|	|	|6,772,264	|10,126,800	16,899,064|
+|	|South	|	|6,772,264	|10,126,800	16,899,064|
+|	|	|2022	|10,126,800	||10,126,800|
+|	|	|2023	||6,772,264	|6,772,264|
+|Standard|	|	|6,752,970	|10,111,406|	16,864,376|
+|	|West	|	|6,752,970	|10,111,406|	16,864,376|
+|	|	|2022	|6,752,970	|3,326,162|	10,079,132|
+|	|	|2023	||6,785,244	|6,785,244|
+|Grand Total|	|	|37,208,727	|30,331,448|	67,540,175|
+
 
 
 
