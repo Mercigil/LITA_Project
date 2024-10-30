@@ -85,6 +85,18 @@ Using Microsoft Excel pivot table, the following summarization of the Customer d
 |North	|8,433	|16,817,972|
 |Grand Total	|33,787	|67,540,175|
 
+- No of Customer by Subcription Type in Regions 		
+
+|SubscriptionType|Region|No of Customer|
+|Basic	|	|16,921|
+||	East	|8,488|
+||	North	|8,433|
+|Premium|	|8,446|
+||	South	|8,446|
+|Standard|	|8,420|
+||	West	|8,420|
+|Grand Total|	|33,787|
+
 - No of Canceled Subscription	by Year	
 
 |Canceled|	2022	|2023	|Grand Total|
