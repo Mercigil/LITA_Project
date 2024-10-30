@@ -443,6 +443,10 @@ order by count(Canceled) desc
 
 ---
 ### Conclusion
+The following are my insight got form the data analysis,data query and data visualization
+- Basic Subscription Type is the most subscribed based on No of Subscribers and Total Revenue
+- East Region has more subscribers based on No of Subscribers and Total Revenue (although the difference with other Region isnt so much)
+- 
 
 ---
 ### Challenge
