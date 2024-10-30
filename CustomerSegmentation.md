@@ -449,7 +449,14 @@ order by count(Canceled) desc
 
 ---
 ### Attached Files
-
+Attached here in this repository are all files used in this Project
+- Excel File ()
+- Csv file (LITA_ProjectSaleData1.csv)
+- Sql file (Sales.sql)
+- Power BI Dashboard (ProjectSales.pbix)
+- Dashboard as images (Customer Dashboard_1, Customer Dashboard_2, Customer Dashboard_3, Customer Dashboard_4, Customer Dashboard_5, Customer Dashboard_6 and Customer Dashboard_7 )
+### THANK YOU!!!
+---
 
 
  
