@@ -505,16 +505,19 @@ Uing Power BI, a Dahboard Report was created consisting of various visuals such 
       
 - Shoes and Hat product record a high no. of Customers
   
--Based on Year record
- 1.  Hat and Shoe product Sales and Revenue increases with time
- 2.  Gloves, Jackets, Shirt and Socks products Sales and Revenue reduces with time
- 3.  Product tend to have certain month in which they sale in each year; Gloves(June and December), Hat(March, August and September), Jacket(May and November), Shirt(January,July), Shoes(Feb,July,August) and Socks(April and October)
- 4. Region tend to make sale in certain months: North(January,May and September), South(February,June and October), East(March,July,November) and West(April, August and December)
+- Based on Year record
+  1.  Hat and Shoe product Sales and Revenue increases with time
+  2.  Gloves, Jackets, Shirt and Socks products Sales and Revenue reduces with time
+  3.  Product tend to have certain month in which they sale in each year; Gloves(June and December), Hat(March, August and September), Jacket(May and November), Shirt(January,July), Shoes(Feb,July,August) and Socks(April and October)
+  4. Region tend to make sale in certain months: North(January,May and September), South(February,June and October), East(March,July,November) and West(April, August and December)
 
+---
 ### Recommendation
  The team in charge of making product available should 
  1. Look into the product that are in high demand and ensure they are available always
  2. Look into the region that are in high demand, as manay orders could be merge on one delivery trip
  3. Look into the months that product are in high demand in regions so as to know when to stock product and which to stock.
- 
-# THANK YOU!!!
+
+--- 
+### THANK YOU!!!
+---
