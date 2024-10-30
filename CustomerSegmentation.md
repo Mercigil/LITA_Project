@@ -461,10 +461,10 @@ This challenge limited my analysis as I could find any month/year related insigh
 ---
 ### Attached Files
 Attached here in this repository are all files used in this Project
-- Excel File ()
+- Cleaned Dataset and Pivot Table (Project.xlsx)
 - Csv file (LITA_Project_CustomerData.csv)
-- Sql file (Customer.sql)
-- Power BI Dashboard (ProjectCustomer.pbix)
+- Querys (Customer.sql)
+- Dashboard Report (ProjectCustomer.pbix)
 - Dashboard as images (Customer Dashboard_1, Customer Dashboard_2, Customer Dashboard_3, Customer Dashboard_4, Customer Dashboard_5, Customer Dashboard_6 and Customer Dashboard_7 )
 ### THANK YOU!!!
 ---
