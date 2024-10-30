@@ -134,7 +134,7 @@ Using Microsoft Excel pivot table, the following summarization of the Sales data
   ||	Aug|	3,486|	174,300|
   |Grand Total||68,461|2,101,090|
 
-Based on Monthly Trend of Sales and Revenue: 
+  Based on Monthly Trend of Sales and Revenue: 
 1. Sales tend to be high in a month, then higher the next month and drop in the third month, as seen with (January,February and March),2023(June,July and August) and (September,October andd November)
 2. Revenue tend to be low(regular) at other months and high at some months(2023(February,July,October,November) and (2024(January,February,June and August))
 			
@@ -206,7 +206,7 @@ Based on Monthly Trend of Sales and Revenue:
 |	|	|Apr	|1,972	|39,440|
 |Grand Total|	|	|68,461	|2,101,090|
 
-  Based on the table above, there exist a Monthly trend in each product based on the years, product turn in sales in certain months in both years
+Based on the table above, there exist a Monthly trend in each product based on the years, product turn in sales in certain months in both years
   
 - Month Region makes Sales in each Year
      
@@ -344,7 +344,7 @@ order by sum(Quantity) desc
 |Socks	|7921|
 |Jacket	|5452|
 
-The highest selling product are Hat,Shoes abd Shirt
+The highest selling product are Hat,Shoes aNd Shirt
 
 - Number of Sales Transactions in Each Region
 ```SQL
