@@ -192,6 +192,138 @@ use LITA_CapstoneProject
 select *
 from LITA_Project_CustomerData
 ```
+- Total number of customers from each region
+```SQL
+select Region,
+	count(CustomerID) as TotalNo_of_Customer
+from LITA_Project_CustomerData
+group by region 
+order by count(CustomerID) desc
+```
+|Region|TotalNo_of_Customer|
+|------|-------------------|
+|East	|8488|
+|South	|8446|
+|North	|8433|
+|West	|8420|
+
+- Most popular subscription type by the number of customers
+```SQL
+select SubscriptionType,
+	count(CustomerID) as TotalNo_of_Customer
+from LITA_Project_CustomerData
+group by SubscriptionType
+order by count(CustomerID) desc
+```
+|SubscriptionType|TotalNo_of_Customer|
+|----------------|-------------------|
+|Basic	|16921|
+|Premium |8446|
+|Standard |8420|
+
+- Customers who canceled their subscription within 6 months
+```SQL
+select CustomerID, count(CustomerID) as No_of_Individual_Subscription
+from LITA_Project_CustomerData
+group by CustomerID
+```
+|CustomerID |No_of_Individual_Subscription|
+|-----------|-----------------------------|
+|215	|1686|
+|209	|1685|
+|201|	1693|
+|212|	1700|
+|218|	1699|
+|213|	1692|
+|207|	1714|
+|216|	1687|
+|210|	1692|
+|204|	1662|
+|211|	1718|
+|219|	1680|
+|205|	1673|
+|202|	1693|
+|208|	1676|
+|217|	1690|
+|203|	1690|
+|214|	1683|
+|220|	1695|
+|206|	1679|
+
+```SQL
+select distinct CustomerID, SubscriptionDuration
+from LITA_Project_CustomerData
+```
+|CustomerID|SubscriptionDuration|
+|----------|--------------------|
+|203|	365|
+|212|	365|
+|210|	365|
+|220|	366|
+|205|	365|
+|218|	366|
+|209|	365|
+|217|	366|
+|207|	365|
+|215|	366|
+|219|	366|
+|206|	365|
+|204|	365|
+|214|	366|
+|211|	365|
+|216|	366|
+|201|	365|
+|213|	365|
+|208|	365|
+
+```SQL
+select distinct CustomerId as CustomerswhoCanceledwithin_6months
+from LITA_Project_CustomerData
+where canceled=1 and 180 >
+(select sum(SubscriptionDuration)/count(CustomerID)
+from LITA_Project_CustomerData)
+```
+
+- Average subscription duration for all customers
+```SQL
+select AVG(SubscriptionDuration) as Average_Subscription_Duration
+from LITA_Project_CustomerData
+```
+|Average_Subscription_Duration|
+|-----------------------------|
+|365|
+
+- Customers with subscriptions longer than 12 months
+```SQL
+select distinct CustomerId as CustomerswithoveraYearSubscription
+from LITA_Project_CustomerData
+where 354 <
+(select sum(SubscriptionDuration)/count(CustomerID)
+from LITA_Project_CustomerData)
+```
+|CustomerswithoveraYearSubscription|
+|----------------------------------|
+|201|
+|202|
+|203|
+|204|
+|205|
+|206|
+|207|
+|208|
+|209|
+|210|
+|211|
+|212|
+|213|
+|214|
+|215|
+|216|
+|217|
+|218|
+|219|
+|220|
+
 
 ---
 ### Data Visualizations 
