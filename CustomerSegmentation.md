@@ -115,6 +115,7 @@ Using Microsoft Excel pivot table, the following summarization of the Customer d
 - Total Revenue from Year by Cancelation			
 	
 |Canceled	|2022	|2023|	Grand Total|
+|---------------|-------|----|-------------|
 |FALSE|23,720,255|13,488,472|	37,208,727|
 |TRUE	|16,818,183|13,513,265	|30,331,448|
 |Grand Total|40,538,438|27,001,737|	67,540,175|
