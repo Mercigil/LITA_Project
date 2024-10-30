@@ -1,7 +1,8 @@
 # LITA Capstone Project
 
 ### Project Title: Sales Performance Analysis for a Retail Store
-
+#### By Tamakloe Vivian Anuoluwa
+#### October,2024
 [Project Overview](#project-overview) 
 
 [Data Source](#data-source) 
@@ -31,7 +32,7 @@ The Data was given by LITA team (Incubator Hub) on the learning platform (Canvas
 - Microsoft Excel [Download Here](https://www.microsoft.com)
   1. For Data Cleaning
   2. For Analysis
-- SQL for Query Data [Download Here](https://www.microsoft.com)
+- SQL Server Management Studio for Query Data [Download Here](https://www.microsoft.com)
 - Power BI for Data Visualizations [Download Here](https://www.microsoft.com)
 - GitHub for Portfolio Building
 
@@ -49,7 +50,7 @@ The following was done to prepare our data for Analysis and Query
      - 40079 Duplicate Rows found and Removed
      - Cleaned Dataset left with 9921 Rows including Header Rows
   6. Added a Calcuated Column (Revenue) as Quantity Sold * Unitprice
-- Copy data and opened in a New Workbook and saved it as a "csv" file so as to be imported into SQL Server Mangemnet Studio 2022(SQL) and Power BI for Data Analysis and Data visualizations
+- Copy data and opened in a New Workbook and saved it as a "csv" file so as to be imported into SQL Server Mangement Studio  and Power BI for Data Analysis and Data visualizations
 - Open Cleaned dataset csv file using Power BI to extract add new column to dataset from OrderDate Column:
   1. Added Column Year
   2. Added Column Month Name
@@ -314,10 +315,142 @@ Based on the table above, there exist a Monthly trend in each region based on th
 ### Data Analysis using SQL
 Using Sql Server Management Studio 2022, the following queries were applied to our Sales data 
 
+- Creating of Database
 ```SQL
-SElECT * FROM table1
-WHERE CONDITION = TRUE
+create database LITA_CapstoneProject
 ```
+- Viewing the dataset after importing it into SQL Servet Management Studio
+```SQL
+select * from LITA_ProjectSaleData
+```
+- Total Sales for each Product Category
+```SQL
+select Product,   
+sum(Quantity)as TotalSales
+from LITA_ProjectSaleData
+group by Product
+order by sum(Quantity) desc
+```
+|Product|Total Sales|
+|-------|-----------|
+|Hat	|15929|
+|Shoes	|14402|
+|Shirt	|12388|
+|Gloves	|12369|
+|Socks	|7921|
+|Jacket	|5452|
+
+The highedt selling product are Hat,Shoes abd Shirt
+
+- Number of Sales Transactions in Each Region
+```SQL
+select Region, 
+count(OrderID) as No_of_SaleTransaction
+from LITA_ProjectSaleData
+group by Region
+order by count(OrderID) desc
+```
+|Region|No_of_SaleTransaction|
+|------|---------------------|
+|East	|2483|
+|North	|2481|
+|South	|2480|
+|West	|2477|
+
+- Total Revenue Per Product
+```SQL
+select sum(Revenue) as TotalRevenue from LITA_ProjectSaleData
+```
+|TotalRevenue|
+|------------|
+|2101090|
+
+```SQL
+select Product, 
+sum(Revenue) as TotalRevenue,
+sum(Revenue)/21010.9 as TotalRevenue_in_Percentage
+from LITA_ProjectSaleData
+group by Product
+order by sum(Revenue) desc
+```
+|Product|TotalRevenue|TotalRevenue_in_Percentage|
+|-------|------------|--------------------------|
+|Shoes	|613380	|29.1934186|
+|Shirt	|485600	|23.1118133|
+|Hat	|316195	|15.0490935|
+|Gloves	|296900	|14.1307607|
+|Jacket	|208230	|9.9105702|
+|Socks	|180785	|8.6043434|
+
+- Monthly Sales Totals for the Current Year
+```SQL
+Select Month_Name, sum(Quantity) as Monthly_Sale_Total_for_Current_Year
+from LITA_ProjectSaleData
+where Year=2024
+Group by Month_Name
+```
+|Month_Name|Monthly_Sale_Total_for_Current_Year|
+|----------|-----------------------------------|
+|February|4980|
+|June	|5928|
+|August	|3486|
+|April	|1972|
+|May	|1488|
+|January|3968|
+|July	|2480|
+|March	|5478|
+
+- Top 5 Customers by Total Purchase Amount
+```SQL
+select top 5 sum(Revenue) as Total_Purchase_Amount, Customer_Id
+from LITA_ProjectSaleData
+group by Customer_Id 
+order by sum(Revenue) desc
+```
+|Total_Purchase_Amount|Customer_Id|
+|---------------------|-----------|
+|4235	|Cus1250|
+|4235	|Cus1005|
+|4235	|Cus1431|
+|4235	|Cus1302|
+|4235	|Cus1115|
+
+- Percentage of Total Sales Contributed by Each Region
+```SQL
+select sum(Quantity) as TotalSales from LITA_ProjectSaleData
+```
+|TotalSales|
+|----------|
+|68461|
+
+```SQL
+select Region,
+sum(Quantity)as TotalSales,
+sum(Quantity)/684.61 as TotalSale_in_Percentage
+from LITA_ProjectSaleData
+group by Region
+```
+|Region|TotalSales|TotalSale_in_Percentage|
+|------|----------|-----------------------|
+|North	|12402	|18.115423|
+|East	|20361	|29.741020|
+|South	|24298	|35.491739|
+|West	|11400	|16.651816|
+
+- Identifying products with no sales in the last quarter
+```SQL 
+ SELECT distinct product as Product_with_NO_Sales_in_Last_Quarter_of_2023
+ FROM LITA_ProjectSaleData
+WHERE product NOT IN 
+(select distinct product ---product with sales in the last quater---
+from LITA_ProjectSaleData
+where Quarter = 4 and year = 2023 )
+```
+|Product_with_NO_Sales_in_Last_Quarter_of_2023|
+|---------------------------------------------|
+|Hat|
+|Shirt|
+|Shoes|
 
 ---
 ### Data Visualizations 
