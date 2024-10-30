@@ -7,13 +7,13 @@
 
 [Tools Used](#tools-used) 
 
-[Data Cleaning and Preparartions](#data-cleaning-and-preparartions)
+[Data Cleaning](#data-cleaning-and-preparartions)
 
 [Data Analysis](#data-analysis) 
 
 [Data Visualizations](#data-visualizations) 
 
-[Recommedations/Conclusions](recommedations/conclusions)
+[Conclusion](recommedations/conclusions)
 
 ---
 ### Project Overview
