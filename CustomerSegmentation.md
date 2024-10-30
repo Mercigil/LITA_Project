@@ -446,19 +446,18 @@ order by count(Canceled) desc
 
 ---
 ### Challenge
+While Analysis the data, at subscription duration, every customer is having 365 or 366 day which is a year. 
+This should not be the case as Customer with Sucscription Cancelation Status as True should have their subscrition duration as less than a year.
+Uding the SubscriptionStart and SubscriptionEnd given, the subscription duration always ends up as a year no matter how i tired.
+This challenge limited my analysis as I could find any month/year related insight.
 
 ---
 ### Attached Files
 Attached here in this repository are all files used in this Project
 - Excel File ()
-- Csv file (LITA_ProjectSaleData1.csv)
-- Sql file (Sales.sql)
-- Power BI Dashboard (ProjectSales.pbix)
+- Csv file (LITA_Project_CustomerData.csv)
+- Sql file (Customer.sql)
+- Power BI Dashboard (ProjectCustomer.pbix)
 - Dashboard as images (Customer Dashboard_1, Customer Dashboard_2, Customer Dashboard_3, Customer Dashboard_4, Customer Dashboard_5, Customer Dashboard_6 and Customer Dashboard_7 )
 ### THANK YOU!!!
 ---
-
-
- 
----
-### Recommedations/Conclusions
