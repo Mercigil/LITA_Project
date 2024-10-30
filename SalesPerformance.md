@@ -23,6 +23,8 @@
 
 [Recommendation](recommendation)
 
+[Attached Files](attached-files)
+
 ---
 ### Project Overview 
 I am working on my LITA Project where I will analysis Sales Performance  for a Retail Store.I explored sales data to uncover key insights such as top-selling products, regional performance, and monthly sales trends. 
@@ -519,5 +521,12 @@ Uing Power BI, a Dahboard Report was created consisting of various visuals such 
  3. Look into the months that product are in high demand in regions so as to know when to stock product and which to stock.
 
 --- 
+### Attached Files
+Attached here are all files used in this Project
+- Excel File ()
+- Csv file (LITA_ProjectSaleData1.csv)
+- Sql file (Sales.sql)
+- Power BI Dashboard (ProjectSales.pbix)
+- Dashboard as images (Sale Dashboard_1, Sale Dashboard_2, Sale Dashboard_3, Sale Dashboard_4, Sale Dashboard_5, Sale Dashboard_6, Sale Dashboard_7, Sale Dashboard_8, Sale Dashboard_9, Sale Dashboard_10)
 ### THANK YOU!!!
 ---
