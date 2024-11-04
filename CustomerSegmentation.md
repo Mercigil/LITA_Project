@@ -27,7 +27,7 @@
 
 ---
 ### Project Overview 
-I am working on my LITA Project (Customer Segmentation) where I will analysis customer data for a subscription service to identify segments and trends. 
+I am working on my LITA Project (Customer Segmentation for a Subscription Service) where I will analysis customer data for a subscription service to identify segments and trends. 
 
 ---
 ### Data Source
