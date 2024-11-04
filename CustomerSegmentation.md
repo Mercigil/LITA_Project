@@ -27,11 +27,11 @@
 
 ---
 ### Project Overview 
-I am working on my LITA Project where I will analysis customer data for a subscription service to identify segments and trends. 
+I am working on my LITA Project (Customer Segmentation) where I will analysis customer data for a subscription service to identify segments and trends. 
 
 ---
 ### Data Source
-The Data was given by LITA team (Incubator Hub) on the learning platform (Canvas for Infrastructure) as an excel file.
+The Data (LITA_Project_CustomerData.csv) was given by LITA team (Incubator Hub) on the learning platform (Canvas for Infrastructure) as an excel file.
 
 ---
 ### Tools Used
