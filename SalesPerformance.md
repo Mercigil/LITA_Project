@@ -27,11 +27,11 @@
 
 ---
 ### Project Overview 
-I am working on my LITA Project where I will analysis Sales Performance  for a Retail Store.I explored sales data to uncover key insights such as top-selling products, regional performance, and monthly sales trends. 
+I am working on my LITA Project(Sales Performance Analysis for a Retail Store) where I will analysis Sales Performance  for a Retail Store.I explored sales data to uncover key insights such as top-selling products, regional performance, and monthly sales trends. 
 
 ---
 ### Data Source
-The Data was given by LITA team (Incubator Hub) on the learning platform (Canvas for Infrastructure) as an excel file.
+The Data(LITA_ProjectSaleData1.csv) was given by LITA team (Incubator Hub) on the learning platform (Canvas for Infrastructure) as an excel file.
 
 ---
 ### Tools Used
