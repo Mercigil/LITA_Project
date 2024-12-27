@@ -467,10 +467,10 @@ This challenge limited my analysis as I could find any month/year related insigh
 ---
 ### Attached Files
 Attached here in this repository are all files used in this Project
-- Cleaned Dataset and Pivot Table (Project.xlsx)
-- Csv file (LITA_Project_CustomerData.csv)
-- Query File (Customer.sql)
-- Dashboard Report (ProjectCustomer.pbix)
-- Dashboard as images (Customer Dashboard_1, Customer Dashboard_2, Customer Dashboard_3, Customer Dashboard_4, Customer Dashboard_5, Customer Dashboard_6 and Customer Dashboard_7 )
+- Cleaned Dataset and Pivot Table [Project.xlsx](Project.xlsx)
+- Csv file [LITA_Project_CustomerData.csv](LITA_Project_CustomerData.csv)
+- Query File [Customer.sql](Customer.sql)
+- Dashboard Report [ProjectCustomer.pbix](ProjectCustomer.pbix)
+- Dashboard as images [Customer Dashboard_1](Customer_Dashboard_1.png), [Customer Dashboard_2](Customer_Dashboard_2.png), [Customer Dashboard_3](Customer_Dashboard_3.png), [Customer Dashboard_4](Customer_Dashboard_4.png), [Customer Dashboard_5](Customer_Dashboard_5.png), [Customer Dashboard_6](Customer_Dashboard_6.png) and [Customer Dashboard_7](Customer_Dashboard_7.png)
 ### THANK YOU!!!
 ---
