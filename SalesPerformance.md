@@ -523,10 +523,10 @@ Uing Power BI, a Dahboard Report was created consisting of various visuals such 
 --- 
 ### Attached Files
 Attached here in this repository are all files used in this Project
-- Cleaned Dataset and Pivot Table (Project.xlsx)
-- Csv file (LITA_ProjectSaleData1.csv)
-- Query file (Sales.sql)
-- Dashboard Report (ProjectSales.pbix)
-- Dashboard as images (Sale Dashboard_1, Sale Dashboard_2, Sale Dashboard_3, Sale Dashboard_4, Sale Dashboard_5, Sale Dashboard_6, Sale Dashboard_7, Sale Dashboard_8, Sale Dashboard_9 and Sale Dashboard_10)
+- Cleaned Dataset and Pivot Table [Project.xlsx](Project.xlsx)
+- Csv file [LITA_ProjectSaleData1.csv](LITA_ProjectSaleData1.csv)
+- Query file [Sales.sql](Sales.sql)
+- Dashboard Report [ProjectSales.pbix](ProjectSales.pbix)
+- Dashboard as images [Sale_Dashboard_1](Sale_Dashboard_1.png), [Sale Dashboard_2](Sale_Dashboard_2.png), [Sale Dashboard_3](Sale_Dashboard_3.png), [Sale Dashboard_4](Sale_Dashboard_4.png), [Sale Dashboard_5](Sale_Dashboard_5.png), [Sale Dashboard_6](Sale_Dashboard_6.png), [Sale Dashboard_7](Sale_Dashboard_7.png), [Sale Dashboard_8](Sale_Dashboard_8.png), [Sale Dashboard_9](Sale_Dashboard_9.png) and [Sale Dashboard_10](Sale_Dashboard_10.png)
 ### THANK YOU!!!
 ---
